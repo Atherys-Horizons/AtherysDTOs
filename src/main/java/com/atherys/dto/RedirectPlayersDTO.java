@@ -7,6 +7,8 @@ import java.util.UUID;
 
 public class RedirectPlayersDTO {
 
+    public static final String KEY = "RP";
+
     @Expose
     private String destination;
 

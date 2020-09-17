@@ -4,6 +4,8 @@ import com.google.gson.annotations.Expose;
 
 public class UnregisterServerDTO {
 
+    public static final String KEY = "US";
+
     @Expose
     private String key;
 

@@ -4,6 +4,8 @@ import com.google.gson.annotations.Expose;
 
 public class RegisterServerDTO {
 
+    public static final String KEY = "RS";
+
     @Expose
     private String key;
 
